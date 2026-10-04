@@ -1,4 +1,4 @@
-# Expense Tracker & Splitwise Clone
+# SplitNest
 
 A full-stack expense management app combining personal expense tracking with Splitwise-style group expense splitting.
 
@@ -50,7 +50,7 @@ docker compose up -d
 ```bash
 cd backend
 npm install
-cp .env.example .env   # fill in DATABASE_URL, JWT_SECRET
+cp .env.example .env   # fill in DATABASE_URL (postgresql://splitnest_user:splitnest_pass@localhost:5432/splitnest), JWT_SECRET
 npx prisma migrate dev
 npm run dev
 ```

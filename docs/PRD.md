@@ -1,5 +1,7 @@
 # PRD.md — Product Requirements Document
 
+## Project Name: SplitNest
+
 ## 1. Problem Statement
 People need a simple way to track their personal spending and to split shared expenses (trips, roommates, group outings) with friends — without manually calculating who owes whom. Existing solutions are either too simple (no group splitting) or too complex/bloated for casual use.
 

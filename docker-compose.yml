@@ -1,14 +1,12 @@
-version: "3.9"
-
 services:
   postgres:
     image: postgres:16
-    container_name: expense_tracker_db
+    container_name: splitnest_db
     restart: unless-stopped
     environment:
-      POSTGRES_USER: expense_user
-      POSTGRES_PASSWORD: expense_pass
-      POSTGRES_DB: expense_tracker
+      POSTGRES_USER: splitnest_user
+      POSTGRES_PASSWORD: splitnest_pass
+      POSTGRES_DB: splitnest
     ports:
       - "5432:5432"
     volumes:
